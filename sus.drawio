@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="fJTz9apNyanMV_NerNh4" name="第1頁">
+        <mxGraphModel dx="386" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="學生" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="275" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="老師" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="275" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="310" y="299.75" as="sourcePoint"/>
+                        <mxPoint x="410" y="299.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="教導" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="260" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="305" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="1.." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="305" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Object" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="170" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="146" width="110" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="17">
+                    <mxGeometry y="26" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="17">
+                    <mxGeometry y="52" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="129" width="85" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="21">
+                    <mxGeometry y="26" width="85" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="21">
+                    <mxGeometry y="52" width="85" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="21">
+                    <mxGeometry y="78" width="85" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="21">
+                    <mxGeometry y="86" width="85" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
